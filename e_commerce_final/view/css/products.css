@@ -1,0 +1,113 @@
+
+    table{
+        width: 100%;
+    }
+    table, th, td {
+    border-collapse: collapse;
+    font-size: 18px;
+    }
+    td{
+        text-align: left;
+
+    }
+    th{
+      background-color: #f2796e;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    a{
+    text-decoration: none;
+    }
+
+
+    button {
+        margin-top: 15px;
+        width: 15%;
+        height: 45%;
+        display: flex;
+        justify-content: center;
+        background-color: #75bbe1;
+        border: 2px solid #75bbe1;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        transition: all 0.1s ease;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      button:hover {
+        opacity: 0.8;
+        background-color: #f2796e;
+        border: 2px solid #f2796e;
+      }
+    span.text_danger{
+        margin-top: 15px;
+        width: 30%;
+        height: 45%;
+        display: flex;
+        justify-content: center;
+        background-color: #75bbe1;
+        border: 2px solid #75bbe1;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        transition: all 0.1s ease;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+    span.text_danger:hover {
+        opacity: 0.8;
+        background-color: #f2796e;
+        border: 2px solid #f2796e;
+      }
+      input.form-control{
+        width: 60px;
+        height: 32px;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      input.form-control:hover{
+        background-color: black;
+        color: white;
+      }
+      span.display{
+        color: black;
+        background-color: aliceblue;
+        border: 1px solid aliceblue;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 20px;
+        height: 35px;
+         margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 145px;
+      }
+
+      input.btn{
+        width: 95px;
+        height: 35px;
+        background-color: #75bbe1;
+        border: 5px solid #75bbe1;
+        border-radius: 5px;
+
+      }
+
+      input.btn:hover{
+        background-color: #f2796e;
+        border: 2px solid #f2796e;
+      }
+
+      input:focus {
+        border: 2px solid #f2796e;
+      }
