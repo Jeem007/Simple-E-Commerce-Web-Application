@@ -39,9 +39,7 @@ Our e-commerce web application will boast the following features:
 - User authentication and authorization will be implemented to ensure data security and privacy.
 - Sensitive user information, such as passwords, will be hashed and securely stored.
 
-## Technology Stack
-
-The technologies and tools planned for the project include:
+## Languages
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** PHP
